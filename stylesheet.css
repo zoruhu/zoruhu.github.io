@@ -193,11 +193,11 @@ li, dt, dd, a {
 }
   
 .main__service {
-  padding-botoom: 100px;
+  padding-bottom: 100px;
 }
 @media screen and ( max-width: 768px) { 
   .main__service {
-    padding-botoom: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -315,7 +315,7 @@ li, dt, dd, a {
   display: block;
   padding: 38px 20px;
 }
-@media screen and ( max-eidth: 768px) {
+@media screen and ( max-width: 768px) {
   .main__news__list li a {
     display: block;
     padding: 24px 12px;
