@@ -1,3 +1,46 @@
-.title {
-    color: #02ccba;
-  }
+@charset "UTF=8";
+/* 初期設定 */
+body {
+  color: #060606;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #060606;
+}
+
+/* 枠線の確認用に一時的に作成 */
+body, header, footer, main, section, div, p, li, dt, dd, a {
+    margin: 10px;
+    padding: 10px;
+}
+
+header, footer, main, section {
+    border: 2px solid #f00;
+}
+
+div, p {
+    border: 1px solid #00f;
+}
+
+li, dt, dd, a {
+    border: 1px dotted #0f0;
+}
+
+/* header */
+.header {
+    
+}
+
+/* main */
+.main {
+    
+}
+
+/* footer */
+.footer {
+    
+}
+
