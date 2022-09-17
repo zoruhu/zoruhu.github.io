@@ -52,7 +52,7 @@ li, dt, dd, a {
 @media screen and ( max-width: 768px) { /* モバイル用 */
   .header__wrap {
     width: 100%;
-    flex-dirextion: column;
+    flex-direction: column;
   }
 }
 
