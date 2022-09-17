@@ -59,6 +59,28 @@ li, dt, dd, a {
     
 }
 
+.main section {
+  width: 85%;
+  margin: 0 auto 60px;
+}
+
+.main .main__kv {
+  width: auto;
+  height: 70vh;
+}                     /*↑の設定を上書きする */
+
+.main__about {
+  
+}
+
+.main__service {
+  
+}
+
+.main__news {
+  
+}
+
 /* footer */
 .footer {
   padding: 90px 0 70px; /* 上に90px、下に70pxの余白 */
