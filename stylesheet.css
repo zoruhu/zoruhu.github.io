@@ -70,9 +70,24 @@ li, dt, dd, a {
 }                     /*↑の設定を上書きする */
 
 .main__about {
-  
+  padding: 0 10px 80px;
 }
 
+.main__about__title {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.main__about__log {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.main__about__txt {
+  margin: 45px 0 60px;
+  text-align: center;
+}
+  
 .main__service {
   
 }
