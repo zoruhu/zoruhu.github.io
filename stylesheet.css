@@ -51,8 +51,8 @@ li, dt, dd, a {
 }
 @media screen and ( max-width: 768px) { /* モバイル用 */
   .header__wrap {
-    width: 100%;
     flex-direction: column;
+    width: 100%;
   }
 }
 
@@ -78,7 +78,6 @@ li, dt, dd, a {
 
 .header__menu {
 }
-
 @media screen and ( max-width: 768px) {
   .header__menu {
     width: 100%;
