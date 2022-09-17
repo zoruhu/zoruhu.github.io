@@ -4,6 +4,7 @@ body {
   color: #060606;
   font-size: 16px;
   font-family: sans-serif;
+  letter-spacing: 0.06em;
 }
 
 a {
@@ -31,7 +32,9 @@ li, dt, dd, a {
 
 /* header */
 .header {
-    
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.15);
 }
 .header__wrap {
   width: 85%;
@@ -67,6 +70,11 @@ li, dt, dd, a {
 .main .main__kv {
   width: auto;
   height: 70vh;
+  display: flex;
+  align-items: center;
+  background: url() center/cover no-repeat;
+  font: normal 24px/1.8 sans-serif;
+  padding-left: 10%;
 }                     /*↑の設定を上書きする */
 
 .main__about {
@@ -76,6 +84,10 @@ li, dt, dd, a {
 .main__about__title {
   margin-bottom: 60px;
   text-align: center;
+  color: #060606;
+  font-size: 28px;
+  letter-spacing: 4px;
+  margin-bottom: 60px; 
 }
 
 .main__about__logo {
@@ -86,6 +98,9 @@ li, dt, dd, a {
 .main__about__text {
   margin: 45px 0 60px;
   text-align: center;
+  padding: 0 20px;
+  font: normal 16px/2 sans-serif;
+  letter-spacing: 4px;
 }
   
 .main__service {
@@ -100,10 +115,15 @@ li, dt, dd, a {
 .main__service__message h2 {
   flex: 1;
   flex-direction: column;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .main__service__message p {
   flex: 2;
+  font-size: 16px;
+  line-height: 2.2;
+  letter-spacing: 2px;
 }
 
 .main__service__list {
@@ -112,6 +132,7 @@ li, dt, dd, a {
 
 .main__service__list li {
   flex: 1;
+  margin-right: 2%;
 }
 
 .main__service__list li a {
@@ -120,6 +141,7 @@ li, dt, dd, a {
 
 .main__service__list li img {
   width: 100%;
+  display: block;
 }
 
 .main__service__list li h3 {
@@ -136,6 +158,7 @@ li, dt, dd, a {
 
 .main__news__title {
   margin-bottom: 16px;
+  font-size: 48px;
 }
 
 .main__news__list {
@@ -143,11 +166,20 @@ li, dt, dd, a {
 }
 
 .main__news__list li {
+  border-bottom: 1px solid #e8ecee;
+}
+
+.main__news__list li:first-child {
+  border-top: 1px solid #e8ecee;
 }
 
 .main__news__list li a {
   display: block;
   padding: 38px 20px;
+}
+
+.main__news__list li a:hover {
+  background: #e8ecee;
 }
 
 .main__news__item {
@@ -162,12 +194,14 @@ li, dt, dd, a {
 }
 
 .main__news__data {
+  line-height: 1.8;
 }
 
 
 /* footer */
 .footer {
   padding: 90px 0 70px; /* 上に90px、下に70pxの余白 */
+  border-top: 1pz solid #e8ecee;
 }
 
 .footer__logo {
@@ -178,6 +212,6 @@ li, dt, dd, a {
 .footer__copyright {
   margin-top: 30px;
   text-align: center; /* 文字を真ん中に */
+  color: #b5b5b5;
+  font-size: 11px;
 }
-
-  
