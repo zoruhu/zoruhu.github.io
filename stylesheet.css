@@ -78,17 +78,55 @@ li, dt, dd, a {
   text-align: center;
 }
 
-.main__about__log {
+.main__about__logo {
   width: 40%;
   margin: 0 auto;
 }
 
-.main__about__txt {
+.main__about__text {
   margin: 45px 0 60px;
   text-align: center;
 }
   
 .main__service {
+  padding-botoom: 100px;
+}
+
+.main__service__message {
+  margin-bottom: 95px;
+  display: flex;
+}
+
+.main__service__message h2 {
+  flex: 1;
+  flex-direction: column;
+}
+
+.main__service__message p {
+  flex: 2;
+}
+
+.main__service__list {
+  display: flex;
+}
+
+.main__service__list li {
+  flex: 1;
+}
+
+.main__service__list li a {
+  display: block;
+}
+
+.main__service__list li img {
+  width: 100%;
+}
+
+.main__service__list li h3 {
+  margin: 50px 0 30px 0 ;
+}
+
+.main__service__list li p {
   
 }
 
