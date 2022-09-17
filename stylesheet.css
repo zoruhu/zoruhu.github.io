@@ -131,8 +131,39 @@ li, dt, dd, a {
 }
 
 .main__news {
-  
+  padding:0 20px 0;
 }
+
+.main__news__title {
+  margin-bottom: 16px;
+}
+
+.main__news__list {
+  padding: 40px 12px;
+}
+
+.main__news__list li {
+}
+
+.main__news__list li a {
+  display: block;
+  padding: 38px 20px;
+}
+
+.main__news__item {
+  display: flex;
+}
+
+.main__news__day {
+  width: 265px;
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+}
+
+.main__news__data {
+}
+
 
 /* footer */
 .footer {
