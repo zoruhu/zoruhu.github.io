@@ -50,7 +50,7 @@ li, dt, dd, a {
   display: flex; /* 横並び */
 }
 
-.header__mune li {
+.header__menu li {
   width: 100px;
 }
 
