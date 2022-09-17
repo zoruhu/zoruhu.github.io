@@ -33,6 +33,26 @@ li, dt, dd, a {
 .header {
     
 }
+.header__wrap {
+  width: 85%;
+  margin: 0 auto; /* 中央揃え */
+  display: flex; /*中身を横並び */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  width: 54px;
+  height: 76px;
+}
+
+.header__menu {
+  display: flex; /* 横並び */
+}
+
+.header__mune li {
+  width: 100px;
+}
 
 /* main */
 .main {
@@ -41,6 +61,17 @@ li, dt, dd, a {
 
 /* footer */
 .footer {
-    
+  padding: 90px 0 70px; /* 上に90px、下に70pxの余白 */
 }
 
+.footer__logo {
+  width: 100px;
+  margin: 0 auto; /* 真ん中に */
+}
+
+.footer__copyright {
+  margin-top: 30px;
+  text-align: center; /* 文字を真ん中に */
+}
+
+  
